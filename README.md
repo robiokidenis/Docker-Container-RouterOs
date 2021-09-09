@@ -12,7 +12,7 @@ git clone https://github.com/robiokidenis/Docker-Container-RouterOs.git
 docker-compose up --build
 ```
 
-## to check 
+## To Check 
 ```bash
 docker images
 docker-compose ps
@@ -27,6 +27,29 @@ docker-compose_chr_1   /routeros/entrypoint.sh   Up      0.0.0.0:1111->1194/tcp,
 
 
 ```
+
+## Exposed Ports
+
+ ```bash {
+                "1194/tcp": {},
+                "1701/tcp": {},
+                "1723/tcp": {},
+                "21/tcp": {},
+                "22/tcp": {},
+                "23/tcp": {},
+                "443/tcp": {},
+                "4500/udp": {},
+                "50/tcp": {},
+                "500/udp": {},
+                "51/tcp": {},
+                "5900/tcp": {},
+                "80/tcp": {},
+                "8291/tcp": {},
+                "8728/tcp": {},
+                "8729/tcp": {}
+           
+```
+
  [link tutorial !](https://robiokidenis.medium.com) 
 
 Thats's It :star_struck:
