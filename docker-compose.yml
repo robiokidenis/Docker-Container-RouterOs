@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+
+  chr:
+    image: dharma007/mikrotik-cloud:latest
+    restart: unless-stopped
+    cap_add:
+      - NET_ADMIN
+    devices:
+      - /dev/net/tun
+    ports:
+      - "2222:22"
+      - "1610:80"
+      - "1111:1194"
+      - "12223:23"
+      - "1212:8291"
+      - "18729:8729"
+      - "18728:8728"
