@@ -50,6 +50,6 @@ docker-compose_chr_1   /routeros/entrypoint.sh   Up      0.0.0.0:1111->1194/tcp,
            
 ```
 
- [link tutorial !](https://robiokidenis.medium.com) 
+ [link tutorial !](https://robiokidenis.medium.com/cara-running-mikrotik-routeros-di-docker-container-526007b2cea9) 
 
 Thats's It :star_struck:
