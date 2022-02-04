@@ -9,7 +9,7 @@ This repository contains a Docker container for running x86_64 virtual machines 
 mkdir docker_routeros
 cd docker_routeros
 git clone https://github.com/robiokidenis/Docker-Container-RouterOs.git
-docker-compose up --build
+docker-compose up --build -d
 ```
 
 ## To Check 
